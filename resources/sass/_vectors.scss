@@ -1,0 +1,6 @@
+@each $color in $theme-colors {
+    svg[fill=#{$color}] {
+        fill: $color !important;
+    }
+}
+

@@ -1,0 +1,66 @@
+// Body
+$body-bg: #fafafa;
+
+// Typography
+//$font-family-sans-serif: 'Nunito', sans-serif;
+$font-family-serif: georgia,serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+//$headings-font-family: $font-family-sans-serif;
+$headings-font-weight: 400;
+$breadcrumb-divider: quote("»");
+
+// Spacing
+$enable-negative-margins: true;
+$small-font-size: .775em;
+//
+//// Colors
+//$blue: #3490dc;
+//$indigo: #6574cd;
+//$purple: #9561e2;
+//$pink: #f66d9b;
+//$red: #e3342f;
+//$orange: #f6993f;
+//$yellow: #ffed4a;
+//$green: #38c172;
+//$teal: #4dc0b5;
+//$cyan: #6cb2eb;
+$primary: #160873;
+$success: #0FBF04;
+$danger: #f60257;
+$light: whitesmoke;
+$dark: #090330;
+
+.badge {
+    line-height: inherit;
+}
+
+.font-serif {
+    font-family: $font-family-serif;
+}
+
+svg.bi {
+    display: inline-block;
+    vertical-align: -0.125em;
+}
+
+.nav-pills.nav-light > .nav-item > .nav-link.active, .nav-pills.nav-light .show > .nav-link {
+    color: $primary;
+    background-color: $light;
+}
+
+.nav-pills.nav-light > .nav-item > .nav-link {
+    color: $light;
+}
+
+.nav-light .nav-link:hover, .nav-light .nav-link:focus {
+    color: white;
+}
+
+.fw-black {
+    font-weight: 900;
+}
+
+.object-fit-cover {
+    object-fit: cover !important;
+}
